@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aac163"
+    tools:context=".PracticaActivity">
+
+    <TextView
+        android:id="@+id/tvPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="2 x 2 = ?"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etRespuesta"
+        android:layout_width="195dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="40dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPregunta" />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="135dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/mi_boton"
+        android:fontFamily="casual"
+        android:text="Probar"
+        android:textColor="#62A56B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRespuesta" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="93dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:rotation="36"
+        android:rotationX="-12"
+        android:rotationY="174"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vegetariano" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="93dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:rotation="36"
+        android:rotationX="-12"
+        android:rotationY="-360"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vegetariano" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/otro_boton"
+        android:fontFamily="casual"
+        android:text="Regresar"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="121dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="396dp"
+        android:rotation="-21"
+        android:rotationX="-21"
+        android:rotationY="-174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rana1" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="121dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="28dp"
+        android:rotation="-4"
+        android:rotationX="-8"
+        android:rotationY="-174"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rana" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
